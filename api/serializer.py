@@ -1,6 +1,9 @@
 from rest_framework import serializers
 from datetime import datetime
-
+'''
+Serializer classes process the payloads from the external APIs and generate objects
+with just the fields that we need.
+'''
 class TimestampField(serializers.Field):
     def to_representation(self, value):
         return datetime.fromtimestamp(value).strftime('%Y-%m-%d')
