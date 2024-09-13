@@ -14,7 +14,7 @@ Installation:
   - http://localhost:3000
 
 Usage:
-- GET http://localhost:3000/`<city>`
+- GET [http://localhost:3000/](http://localhost:3000/`)[city]
   - Parameters:
     - city (string): The partial or full name of a city
   - Output:
