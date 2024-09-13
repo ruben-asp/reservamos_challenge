@@ -14,9 +14,11 @@ Installation:
   - http://localhost:3000
 
 Usage:
-- GET http://localhost:3000/<city>
+- GET http://localhost:3000/`<city>`
   - Parameters:
-    - city: The partial or full name of a city
+    - city (string): The partial or full name of a city
   - Output:
     - (JSON) The list of matching cities and their 7 days weather forecast
-  
+  - Examples:
+    - Full city name: http://localhost:3000/Monterrey 
+    - Partial city name: http://localhost:3000/potosi
